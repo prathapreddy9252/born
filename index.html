@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BIrth day LUCKY tESt</title>
+	<style >
+		.main-frame{
+			padding-left:35%;
+			padding-top:4%;
+			background-color:#307D7E;
+		     }
+		.form-frame{
+			border-radius:10px;
+			border-top: solid;
+			border-style:double;
+			border-width:5px;
+			border-color:#4E8975;
+			width: 300px;
+			height:400px;
+			background-color:#CCFFFF;
+			text-align:center;
+			color:#0C090A;
+		}
+		form{
+			padding-left: 25px;
+			padding-bottom: 
+			text-align:left;
+			font-family:serif;
+			font-style: bold;
+			font-weight: 30px;
+
+		}	
+		button{
+			padding: 10px;
+			font-style: bold;
+			font-size:20px;
+			background-color: green;
+			color: white;
+			border-width:4px;
+			border-radius:10px;
+			border-color:white;
+			border-style:flat;		}
+		input{
+			width: 20px;
+			height: 20px;
+			border-width:1px;
+			border-color:black;
+			font-weight:20px;
+			font-family: systemfixed;
+			font-style: bold;
+			font-size: 20px;
+			border-style:flat;
+		}
+		button:hover{
+			background-color: white;
+			color: green;
+			border-style: groove;
+			border-color:green;
+			cursor:pointer;
+		}
+		.form-frame:hover{
+			background-color:#307D7E;
+			border-width:2px;
+			border-color:white;	
+			color:white;
+		}
+	</style>
+</head>
+<body class="main-frame">  
+	<div class="form-frame">
+		<h3 style="padding-top: 40px;">Enter your BORN DATE.......?</h3>
+		<form action="backend_birthday.php" method="post">
+			<label for="date">Date &nbsp- Month - Year</label><br>
+			<input type="text" id="date" name="day" required> :
+			<input type="text" id= "date" name="month" required> :
+			<input style="width: 40px;"type="text" id= "date" name="year" required>
+			<br/><br><br><br>
+			<button type="submit">submit</button>
+		</form>
+	</div>
+
+</body>
+</html>
